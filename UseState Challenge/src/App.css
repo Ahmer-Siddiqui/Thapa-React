@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.App{
+    height: 100vh;
+    width: 100vw;
+}
+.header{
+    border: 1px solid black;
+    height: 10%;
+    width: 100%;
+    color: white;
+    background-color: black;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.App .main{
+    border: 3px solid black;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border: none;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 10%;
+    margin: 20px;
+}
